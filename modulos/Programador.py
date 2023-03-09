@@ -1,4 +1,4 @@
-from Empleado import Empleado
+from modulos.Empleado import Empleado
 class Programador(Empleado):
     def __init__(self,nombre,salario,puesto,lenguaje_programacion):
         super().__init__(nombre,salario,puesto)

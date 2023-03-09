@@ -1,6 +1,6 @@
-from  modulos.Sistema_Nominas import Sistema_Nominas
-from  modulos.Analista import Analista
-from  modulos.Programador import Programador
+from modulos.Sistema_Nominas import Sistema_Nominas
+from modulos.Analista import Analista
+from modulos.Programador import Programador
 if __name__=="__main__":
     empleados=[]
     accion="s"

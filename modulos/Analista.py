@@ -1,7 +1,7 @@
 class Analista:
-    def __init__(self,nombre,salario,metodologias):
+    def __init__(self,nombre,salario,metodologia):
         super().__init__(nombre,salario)
-        self.metodologias=metodologias
+        self.metodologia=metodologia
     def calcular_salario(self):
         return self.salario*1.8
     

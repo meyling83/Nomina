@@ -4,3 +4,4 @@ class Empleado:
         self.salario=30000
     def calcular_salario(self):
         return self.salario*1.1
+

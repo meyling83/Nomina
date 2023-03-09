@@ -1,6 +1,6 @@
-import modulos.Empleado as empleado
-import modulos.Analista as analista
-import modulos.Programador as Programador
+from  Empleado import Empleado
+from  Analista import Analista
+from  Programador import Programador
 
 class Sistema_Nominas:
     def calcular_nominas(self,empleados):

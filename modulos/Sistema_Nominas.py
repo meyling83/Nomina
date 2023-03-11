@@ -2,7 +2,7 @@ class Sistema_Nominas:
     def calcular_nominas(self,empleados):
         print("Calculando nominas")
         print("==============================================")
-      
+        #recorre la lista de empleados para imprimir la nomina
         for emp in empleados:
              #si el empleado es analista imprimo la metodologia y el nombre
             if emp.puesto=="analista":

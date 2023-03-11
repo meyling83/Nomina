@@ -4,7 +4,7 @@ class Programador(Empleado):
     def __init__(self,nombre,salario,puesto,lenguaje_programacion):
         super().__init__(nombre,salario,puesto)
         self.lenguaje_programacion=lenguaje_programacion
-    #funcion clacular_salario. Si el lenguaje de programacion es python multiplicar por 1.5
+    #funcion para calcular el salario. Si el lenguaje de programacion es python multiplicar por 1.5
     #si es java por 1.3, cualquier otro por 1.2
     def calcular_salario(self):
         if self.lenguaje_programacion.lower()=="python":
